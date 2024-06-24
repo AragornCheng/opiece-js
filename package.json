@@ -1,18 +1,24 @@
 {
-  "name": "opiece-js",
+  "name": "opiece.js",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.3",
   "type": "module",
-  "main": "dist/opiece-js.umd.js",
-  "module": "dist/opiece-js.es.js",
-  "files": ["dist/*"],
+  "main": "dist/opiece.umd.js",
+  "module": "dist/opiece.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
-    "build": "vite build"
-  },
-  "dependencies": {
+    "build": "vite build",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/coverage-v8": "^1.6.0",
     "typescript": "^5.2.2",
-    "vite": "^5.3.1"
+    "vite": "^5.3.1",
+    "vite-plugin-dts": "^3.9.1",
+    "vitest": "^1.6.0"
   }
 }

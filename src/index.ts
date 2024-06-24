@@ -5,6 +5,8 @@
  */
 
 function sum(a: number, b: number) {
+  if (typeof a !== 'number') return a
+  if (typeof b !== 'number') return b
   return a + b;
 }
 
