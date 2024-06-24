@@ -1,6 +1,6 @@
 {
   "name": "opiece.js",
-  "private": false,
+  "private": true,
   "version": "0.0.3",
   "type": "module",
   "main": "dist/opiece.umd.js",
