@@ -1,18 +1,11 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*",
-    "docs"
-  ],
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "vitest",
-    "coverage": "vitest run --coverage"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "devDependencies": {
-    "@vitest/coverage-v8": "^1.6.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1",
-    "vite-plugin-dts": "^3.9.1",
-    "vitest": "^1.6.0"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

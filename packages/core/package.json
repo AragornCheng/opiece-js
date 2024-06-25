@@ -1,16 +1,11 @@
 {
   "name": "opiece.js",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "",
   "type": "module",
-  "main": "dist/opiece.umd.js",
-  "module": "dist/opiece.es.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist/*"
-  ],
+  "main": "index.js",
   "scripts": {
-    "build": "vite build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",

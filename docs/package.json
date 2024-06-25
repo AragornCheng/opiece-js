@@ -1,18 +1,13 @@
 {
   "name": "@opiecejs/docs",
-  "private": true,
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vitepress": "^1.2.3"
-  }
+  "license": "ISC"
 }
