@@ -1,0 +1,18 @@
+{
+  "name": "opiece.js",
+  "version": "0.0.3",
+  "description": "",
+  "type": "module",
+  "main": "dist/opiece.umd.js",
+  "module": "dist/opiece.es.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

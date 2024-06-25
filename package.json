@@ -1,16 +1,10 @@
 {
-  "name": "opiece.js",
   "private": true,
-  "version": "0.0.3",
-  "type": "module",
-  "main": "dist/opiece.umd.js",
-  "module": "dist/opiece.es.js",
-  "types": "dist/index.d.ts",
-  "files": [
-    "dist/*"
+  "workspaces": [
+    "packages/*",
+    "docs"
   ],
   "scripts": {
-    "build": "vite build",
     "test": "vitest",
     "coverage": "vitest run --coverage"
   },

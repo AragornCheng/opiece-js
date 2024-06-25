@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [dts()],
   build: {
     lib: {
-      entry: 'src/index.ts',
+      entry: 'packages/core/src/index.ts',
       name: 'opiece.js',
       fileName: (format) => `opiece.${format}.js`,
     }
