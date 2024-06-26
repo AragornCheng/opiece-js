@@ -1,0 +1,13 @@
+{
+  "name": "opiece.js",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "main": "dist/opiece.umd.js",
+  "module": "dist/opiece.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist/*"],
+  "scripts": {
+    "build": "vite build"
+  }
+}
