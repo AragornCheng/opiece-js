@@ -1,10 +1,2 @@
-/**
- * @description 求和函数
- * @param {number} a
- * @param {number} b
- * @returns {number}
- */
-
-export function sum(a: number, b: number): number {
-  return a + b
-}
+export * from './browser/index'
+export * from './number/index'
