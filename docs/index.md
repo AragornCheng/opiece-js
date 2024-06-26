@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
+  name: "OPieceJS"
+  text: "Vite & TypeScript Powered Library"
   tagline: My great project tagline
   actions:
     - theme: brand
@@ -13,6 +13,9 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    - theme: alt
+      text: Test
+      link: /test
 
 features:
   - title: Feature A
